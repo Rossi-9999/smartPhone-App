@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AH Smartphone/Xiaomi Mi11 5G</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+    <link href="../CSS/Ip12.css" rel="stylesheet" />
+
+    <link href="../CSS/bootstrap.min.css" rel="stylesheet" />
+    <script src="../JS/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="../JS/bootstrap.min.js"></script>
+    <script src="../JS/index.js"></script>
+  
+    <script src="../JS/chuyen.js"></script>
+
+</head>
+<body style="background-color:#eeeaea;">
+    <div class="header head-fruid" style="background-color:black;">
+        <div class="col-xs-3 header1">
+            <a href="../HTML/Trangchu.html"><img src="../HINH/ah-letter-monogram-logo-illustration_95059-30.jpg" /></a>
+            <a id="name-shop" href="../HTML/Trangchu.html">AH Smartphone</a>
+
+        </div>
+        <div class="col-xs-3 header2">
+            <input type="search" placeholder="Tìm kiếm sản phẩm... " size="30px">
+            <div class="search"><i class="fas fa-search"></i></div>
+
+
+        </div>
+        <div class="col-xs-6 header3">
+            <div class="phone">
+                <i class="fas fa-phone-square-alt"></i>
+                <p>Gọi Mua Hàng:</p>
+                <p>099.999.999</p>
+            </div>
+            <div class="giohang">
+                <i class="fas fa-shopping-cart"></i>
+                <ul>
+                    <li><a href="#">Giỏ Hàng</a></li>
+                </ul>
+
+            </div>
+            <div class="dn-dk">
+                <button id="dn">Đăng Nhập</button>
+
+                <button id="dk">Đăng Ký</button>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="nav">
+        <nav class="col-xs-12">
+            <ul class="menu">
+                <li><i class="fas fa-laptop-house"><a href="../HTML/Trangchu.html">Trang Chủ</a></i></li>
+                <li><i class="fas fa-mobile-alt"><a href="../HTML/Apple.html">Iphone</a></i>
+                    <ul class="submenu">
+                        <li><a href="../HTML/Iphone12.html">IPhone 12 Pro</a></li>
+                        <li><a href="../HTML/Iphone12.html">IPhone 12 Pro Max</a></li>
+                        <li><a href="../HTML/Iphone12.html">IPhone 11 Pro Max</a></li>
+                        <li><a href="../HTML/Iphone12.html">IPhone X</a></li>
+                    </ul>
+                </li>
+                <li><i class="fas fa-mobile"><a href="../HTML/Samsung.html">Samsung  </a></i>
+                    <ul class="submenu">
+                        <li><a href="../HTML/SamsungA32.html">SamSung S 21+</a></li>
+                        <li><a href="../HTML/SamsungA32.html">SamSung Galaxy A52</a></li>
+                        <li><a href="../HTML/SamsungA32.html">SamSung Note 20 Untra</a></li>
+                        <li><a href="../HTML/SamsungA32.html">SamSung Galaxy A32</a></li>
+                    </ul>
+                </li>
+                <li><i class="fas fa-mobile-alt"><a href="../HTML/Oppo.html">Oppo  </a></i>
+                    <ul class="submenu">
+                        <li><a href="../HTML/oppoReno.html">OPPO Reno 4 Pro</a></li>
+                        <li><a href="../HTML/oppoReno.html">OPPO A93</a></li>
+                        <li><a href="../HTML/oppoReno.html">OPPO Reno 5</a></li>
+                        <li><a href="../HTML/oppoReno.html">OPPO A92</a></li>
+                    </ul>
+                </li>
+                <li><i class="fas fa-mobile"><a href="../HTML/Xiaomi.html">Xiaomi  </a></i>
+                    <ul class="submenu">
+                        <li><a href="../HTML/Xiaomi115G.html">Xiaomi Mi 11 5G</a></li>
+                        <li><a href="../HTML/Xiaomi115G.html">Xiaomi Redmi Note 10</a></li>
+                        <li><a href="../HTML/Xiaomi115G.html">Xiaomi 11 Lite</a></li>
+                        <li><a href="../HTML/Xiaomi115G.html">Xiaomi Redmi Note 9 Pro</a></li>
+                    </ul>
+                </li>
+                <li><i class="fas fa-headphones-alt"><a href="../HTML/Tainghe.html">Phụ kiện</a></i>
+                    <ul class="submenu">
+                        <li><a href="../HTML/Tainghe.html">Tai Nghe</a></li>
+                        <li><a href="../HTML/opdt.html">Ốp Lưng Điện Thoại</a></li>                
+                    </ul>
+                </li>
+                <li><i class="fas fa-tools"><a href="#">Sữa chữa</a></i></li>
+                <li><i class="fas fa-briefcase-medical"><a href="#">Bảo hành</a></i></li>
+            </ul>
+        </nav>
+    </div>
+     <div class="list-slide">
+        <div class="anh">
+            <a href="#"><img id="anh1" src="../HINH/dt1.jpg" /></a>
+            <a href="#"><img id="anh1" src="../HINH/dt2.png" /></a>
+            
+        </div>
+        <div class="slide">
+            <div class="dieuhuong">
+                <i class="fa fa-chevron-circle-left" onclick="Back();"></i>
+                <i class="fa fa-chevron-circle-right" onclick="Next();"></i>
+            </div>
+            <div class="chuyen-slide">
+                <a href="#"><img src="../HINH/a1.png" /></a>
+                <a href="#"><img src="../HINH/a2.png" /></a>
+                <a href="#"><img src="../HINH/a3.png" /></a>
+                <a href="#"><img src="../HINH/a6.png" /></a>
+                <a href="#"><img src="../HINH/a5.png" /></a>
+           </div>
+        </div>
+    </div>
+    <script src="../JS/slide.js"></script>
+    <div class="container">
+        <section data-id="22083" data-cate-id="42" class="detail">
+            <ul class="breadcrumb">
+                 <li style="font-size: 16px;">
+                    <a href="../HTML/Trangchu.html">Trang chủ</a>
+                    <meta property="position" content="1">
+                </li>
+                <li style="font-size: 16px;">
+                    <a href="../HTML/Oppo.html">Xiaomi Mi11 5G</a>
+                    <meta property="position" content="1">
+                </li>
+                <li style="font-size: 16px;">
+                    <span></span>
+                    <a href="../HTML/oppoReno.html">Điện thoại Xiaomi Mi11 5G</a>
+                    <meta property="position" content="2">
+                </li>
+            </ul>
+            <h1> Điện thoại Xiaomi Mi11 5G </h1>
+            <div class="row">
+                <div class="col-md-9">
+                   
+                    <img src="../HINH/phone/x1.jpg" class="sli"  stt="0"  >
+                    <img src="../HINH/phone/x2.jpg"  stt="1" class="sli" style="display:none;">
+                    <img src="../HINH/phone/x3.jpg" class="sli"  stt="2" style="display:none;">
+                    <img src="../HINH/phone/x4.jpg" class="sli"  stt="3" style="display:none;">
+                    <img src="../HINH/phone/x5.jpg" class="sli"  stt="4" style="display:none;">
+                    <img src="../HINH/phone/x6.jpg" class="sli"  stt="5" style="display:none;">
+                    <img src="../HINH/phone/x7.jpg" class="sli"  stt="6" style="display:none;">
+                    <img src="../HINH/phone/x8.jpg" class="sli"  stt="7" style="display:none;"> 
+                 
+                    <a href="#" id="pre"><img src="../HINH/phone/pree.jpg" style="text-transform: uppercase; width: 28px; height: 30px; margin-right: 600px; margin-top: -480px;"></a>
+                    <a href="#" id="next"><img src="../HINH/phone/nextt.jpg" style="text-transform: uppercase; width: 28px; height: 30px; margin-left: 753px; margin-top: -532px;"></a>
+
+               </div>
+            <div class class="col-md-3">
+                   <h3>Điện thoại Xiaomi Mi11 5G - Chính hãng</h3>
+                   <ul style="font-size: 18px;">
+                       <li> Tên điện thoại: Xiaomi Mi11 5G</li>
+                       <li>
+                           Giá gốc: 16.790.000đ <br>
+                           Giá khuyến mãi: 21.990.000đ
+                       </li>
+                       <li>
+                           Nhà cung cấp: Xiaomi
+                       </li>
+                       <li> Màn hình: AMOLED,6.81",Quad HD+ (2K+)</li>
+                       <li>Hệ điều hành: Android 11</li>
+                       <li>Camera trước: 20 MP</li>
+                       <li>Camera sau: Chính 108 MP & Phụ 13 MP, 5 MP</li>
+                       <li>
+                           Chip: Snapdragon 888
+                       </li>
+                   </ul>
+                     
+                        <span>
+                            <input id="mua" type="submit" value="Chọn mua" style="border:none;background-color:red;  color:white;font-weight:bold; margin-left:10px;
+                      padding:4px; border-radius:5px;"/>
+                        </span>
+                        <span>
+                            <input id="them" type="submit" value="Trả góp 0%" style="border:none;background-color:red;  color:white;font-weight:bold; margin-left:10px;
+                      padding:4px; border-radius:5px;"/>
+                        </span>
+                          
+            </div>
+            </div>
+            <div class="box">
+                    <div class="box-header ">
+                        <p style="font-size: 18px;">SẢN PHẨM MUA KÈM </p>
+                    </div>
+                    <div class="product-list" >
+                        <div class="col-md-3 col-sm-3 col-xs-3 product">
+
+                            <a href="#" class="img">
+                        <img id="imgdt" src="../HINH/xiaomi11_5g.jpg" />
+                         <div class="home-product-item__sale-off">
+
+                             <span class="home-product-item__sale-off-percent">-19%</span>
+                        </div>
+                            </a>
+                             </a>
+                            <a href="#">Samsung A32| Chính hãng</a><br />
+                            <span class="price-new"> 16.790.000đ</span>
+                            <span class="price-old"> 21.990.000đ</span>
+                        </div>
+                        <div class="col-md-1" >
+                            <p style="font-size: 50px; margin-top: 120px; text-align: center;">+</p>
+                        </div>
+                         <div class="col-md-3 col-sm-3 col-xs-3 product">
+
+                            <a href="#" class="img">
+                        <img id="imgdt" src="../HINH/phone/x11.jpg" />
+                           <div class="home-product-item__sale-off">
+                                 <span class="home-product-item__sale-off-percent">-18%</span>
+                           </div>
+                            </a>
+                            <a href="#">Tai nghe thể thao Buetooth Xiaomi Neckband LYXQEJ01JY</a><br />
+                            <span class="price-new"> 943.000đ</span>
+                            <span class="price-old">1.150.000đ </span>
+                        </div>
+                        <div class="col-md-2" style="background-color: white;">
+
+                        </div>
+                         <div class="col-md-3 col-sm-3 col-xs-3 product">
+                           <p style="font-size: 16px;margin-top: 100px;">Tổng cộng: 17.733.000đ</p>
+                           <p style="font-size: 16px; margin-top: 10px; color: red;">Tiết kiệm: 5.407.000đ</p>
+                          <span >
+                              <input style="height: 40px; width: 150px; border-radius: 5px; background-color: red; color: white;  font-weight:bold; border: 0px;" id="mua" type="submit" value="Chọn mua" />
+                          </span>
+
+                </div>
+                    </div>
+            </div>
+            <div class="box">
+                   <div class="box-header ">
+                        <p style="font-size: 18px;">SẢN PHẨM TƯƠNG TỰ </p>
+                    </div>
+                    <div class="product-list ">
+
+                 <div class="col-md-3 col-sm-3 col-xs-3 product">
+
+                    <a href="#" class="img">
+
+                        <img id="imgdt" src="../HINH/samsungs21+.jpg" />
+                        <div class="home-product-item__sale-off">
+                            <span class="home-product-item__sale-off-percent">-10%</span>
+                        </div>
+                    </a>
+                    <a href="#">Samsung S21+ 5G 256GB</a><br />
+                    <span class="price-new"> 28,900,000</span>
+                    <span class="price-old">30,100,000</span>
+                    <span id="km">
+                        Hàng chính hãng bảo hành 1 đổi 1 trong 30 ngày
+                    </span>
+
+                    <div class="star">
+
+                        <img id="star1" src="../HINH/ngoisao.jpg" />
+                        <img id="star1" src="../HINH/ngoisao.jpg" />
+                        <img id="star1" src="../HINH/ngoisao.jpg" />
+                        <img id="star1" src="../HINH/ngoisao.jpg" />
+                        <img id="star1" src="../HINH/ngoisao.jpg" />
+                        <p id="danhgia">11</p>
+
+                    </div>
+                    <div class="buy">
+                        <span>
+                            <input id="mua" type="submit" value="Mua Ngay" />
+                        </span>
+                        <span>
+                            <input id="them" type="submit" value="Thêm Vào Giỏ" />
+                        </span>
+
+                    </div>
+                 </div>
+               <div class="col-md-3 col-sm-3 col-xs-3 product">
+                    <a href="#" class="img">
+
+
+                        <img id="imgdt" src="../HINH/xiaomi_redmi_note9pro.jpg" />
+                        <div class="home-product-item__sale-off">
+                            <span class="home-product-item__sale-off-percent">-10%</span>
+                        </div>
+                    </a>
+                    <a href="#">Samsung Galaxy A32</a><br />
+                    <span class="price-new"> 5,790,000</span>
+                    <span class="price-old">6,990,000</span>
+                    <span id="km">
+                        Hàng chính hãng bảo hành 1 đổi 1 trong 30 ngày
+                    </span>
+                    <div class="star">
+
+                        <img id="star1" src="../HINH/ngoisao.jpg" />
+                        <img id="star1" src="../HINH/ngoisao.jpg" />
+                        <img id="star1" src="../HINH/ngoisao.jpg" />
+                        <img id="star1" src="../HINH/ngoisao.jpg" />
+                        <img id="star1" src="../HINH/ngoisao.jpg" />
+                        <p id="danhgia">28</p>
+
+                    </div>
+                    <div class="buy">
+                        <span>
+                            <input id="mua" type="submit" value="Mua Ngay" />
+                        </span>
+                        <span>
+                            <input id="them" type="submit" value="Thêm Vào Giỏ" />
+                        </span>
+
+                    </div>
+                </div>
+                  <div class="col-md-3 col-sm-3 col-xs-3 product">
+                    <a href="#" class="img">
+
+
+                        <img id="imgdt" src="../HINH/xiaomi_redmi_note10.jpg" />
+                        <div class="home-product-item__sale-off">
+
+                            <span class="home-product-item__sale-off-percent">-18%</span>
+                        </div>
+                    </a>
+                    <a href="#">Xiaomi Redmi Note 10</a><br />
+                    <span class="price-new"> 8,500,000</span>
+                    <span class="price-old">10,900,000</span>
+                    <span id="km">
+                        Hàng chính hãng bảo hành 1 đổi 1 trong 30 ngày
+                    </span>
+                    <div class="star">
+
+                        <img id="star1" src="../HINH/ngoisao.jpg" />
+                        <img id="star1" src="../HINH/ngoisao.jpg" />
+                        <img id="star1" src="../HINH/ngoisao.jpg" />
+                        <img id="star1" src="../HINH/ngoisao.jpg" />
+                        <img id="star1" src="../HINH/ngoisao.jpg" />
+                        <p id="danhgia">87</p>
+
+                    </div>
+                    <div class="buy">
+                        <span>
+                            <input id="mua" type="submit" value="Mua Ngay" />
+                        </span>
+                        <span>
+                            <input id="them" type="submit" value="Thêm Vào Giỏ" />
+                        </span>
+
+                    </div>
+                </div>
+                 <div class="col-md-3 col-sm-3 col-xs-3 product">
+
+                <a href="#" class="img">
+                    <img id="imgdt" src="../HINH/ip11.jpg" />
+                    <div class="home-product-item__sale-off">
+
+                        <span class="home-product-item__sale-off-percent">-12%</span>
+                    </div>
+                </a>
+                <a href="#">Iphone 11 | Chính hãng</a><br />
+                <span class="price-new"> 15,800,000</span>
+                <span class="price-old">18,800,000</span>
+                <span id="km">
+                    Tặng Voucher 500.000đ khi mua hàng ngay hôm nay
+                </span>
+                <div class="star">
+
+                    <img id="star1" src="../HINH/ngoisao.jpg" />
+                    <img id="star1" src="../HINH/ngoisao.jpg" />
+                    <img id="star1" src="../HINH/ngoisao.jpg" />
+                    <img id="star1" src="../HINH/ngoisao.jpg" />
+                    <img id="star1" src="../HINH/ngoisao.jpg" />
+                    <p id="danhgia">49</p>
+
+                </div>
+                <div class="buy">
+                    <span>
+                        <input id="mua" type="submit" value="Mua Ngay" />
+                    </span>
+                    <span>
+                        <input id="them" type="submit" value="Thêm Vào Giỏ" />
+                    </span>
+
+                </div>
+                 </div>
+                
+                
+            </div>
+            </div>
+            <div class="box">
+                 <div class="box-header ">
+                        <p style="font-size: 18px;">MÔ TẢ SẢN PHẨM </p>
+                 </div>
+                 <div class="col-md-12" style="background-color: white;">
+                     <p>
+                         <br>
+                         <br>
+                        
+                        Màn hình: AMOLED,6.81",Quad HD+ (2K+) <br>
+                        Hệ điều hành: Android 11 <br>
+                        Camera sau: Chính 108 MP & Phụ 13 MP, 5 MP<br>
+                        Camera trước: 20 MP<br>
+                        Chip: Snapdragon 888<br>
+                        RAM: 8 GB<br>
+                        Bộ nhớ trong: 256 GB<br>
+                        Thẻ SIM: 2 Nano SIM, Hỗ trợ 5G<br>
+                        Dung lượng pin: 4600 mAh55, W<br>
+                     </p>
+                     <p style="font-size: 24px;"><b>Đánh giá chi tiết Xiaomi Mi 11 5G 8GB-256GB</b></p>
+                     <p>
+                         Cao cấp, mạnh mẽ và trải nghiệm giải trí tuyệt đỉnh, đó chính là những gì Xiaomi Mi 11 mang đến cho người dùng, nơi bạn được tận hưởng camera 108MP, màn hình QHD+ 120Hz cùng âm thanh Harman Kardon siêu sống động.</p>
+                     <p>
+                        <iframe width="100%" height="450px" src="../HINH/xiaomi.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                     </p>
+                     <p style="font-size: 24px;"><b>Camera 108MP, rõ nét đến từng chi tiết</b></p>
+                     <p>
+                        Camera chính của Xiaomi Mi 11 có độ phân giải lên tới 108MP, khẩu độ f/1.9, chống rung quang học OIS. Với 108 triệu điểm ảnh, bạn sẽ được chiêm ngưỡng mọi hình ảnh với độ nét đáng kinh ngạc. Thoải mái phóng to để nhìn rõ mọi chi tiết, bức ảnh vẫn rất nét và không có hiện tượng vỡ hình. Bên cạnh đó bạn còn có camera góc siêu rộng 13MP và camera macro 5MP, cho trải nghiệm chụp ảnh thêm phần thú vị.
+                     </p>
+                      <p>
+                           <img style="width: 80%; height:500px; margin-left: 100px;" src="../HINH/phone/5gg.jpg" alt="">
+                     </p>
+                     </p>
+                     <p style="font-size: 24px;"><b>Hiệu năng hàng khủng với Snapdragon 888</b></p>
+                     <p>
+                         Được trang bị vi xử lý Qualcomm Snapdragon 888 cao cấp nhất, vừa được ra mắt gần đây với tiến trình 5 nm. Trang bị lõi Arm Cortex-X1 với xung nhịp khủng 2.84 GHz giúp tốc độ xử lý CPU tăng 25%, đồng thời tiết kiệm pin hơn so với Snapdragon 865.
+                     </p>
+                     <p>
+                           <img style="width: 80%; height:500px; margin-left: 100px;" src="../HINH/phone/x4.jpg" alt="">
+                     </p>
+                     <p>
+                         Cùng sự nhảy vọt đáng kể về khả năng đồ họa với GPU Adreno 660 tăng 35%, Mi 11 hoàn toàn có thể chạy mượt bất kỳ tựa game mobile “hạng nặng” nào.
+                        Mi 11 còn dẫn đầu về tốc độ xử lý AI khi trang bị bộ xử lý AI Engine thế hệ thứ 6 Hexagon 780 giúp cho máy có thể xử lý hình ảnh, video và các tác vụ AI, máy học diễn ra nhanh chóng hơn. 
+                     </p>
+                     <p>
+                         Kết hợp với 8 GB RAM LPDDR5 và 256 GB bộ nhớ trong chuẩn UFS 3.1 với tốc độ hàng đầu, cùng công nghệ tản nhiệt chất lỏng VC, giúp cho Mi 11 phát huy hết sức mạnh của vi xử lý Snapdragon 888 khi thực hiện các tác vụ nặng.
+
+                     </p>
+                       <p>
+                           <img style="width: 80%; height:500px; margin-left: 100px;" src="../HINH/phone/xx.jpg" alt="">
+                     </p>
+                     <p>
+                         Mi 11 được tích hợp MIUI 12.5 mới nhất hoạt động trên nền Android 11, được xem là bản cập nhật có nhiều cải tiến về bảo mật, tối ưu hiệu năng tốt hơn nhờ sử dụng bộ nhớ nền ít hơn 35% và giảm 25% mức tiêu thụ điện năng nhưng không làm giảm trải nghiệm và sự mượt mà trong mọi tác vụ.
+                     </p>
+                     <p style="font-size: 24px;"><b>Sạc nhanh công suất cao 55 W</b></p>
+                     <p>
+                         Với thiết kế mỏng, nhưng Mi 11 vẫn sở hữu viên pin với dung lượng ấn tượng 4.600 mAh, đảm bảo thoải mái cho một ngày sử dụng.
+                     </p>
+                     <p>
+                           <img style="width: 80%; height:500px; margin-left: 100px;" src="../HINH/phone/xxx.jpg" alt="">
+                     </p>
+                     <p>
+                         Trang bị công nghệ sạc pin nhanh Mi TurboCharge với công suất 55 W, giúp cho Mi 11 được sạc đầy chỉ trong 45 phút, thậm chí sạc không dây 50 W cũng nhanh không kém chỉ với 53 phút.
+                     </p>
+                       <p>
+                           <img style="width: 80%; height:500px; margin-left: 100px;" src="../HINH/phone/x12.jpg" alt="">
+                     </p>
+                     <p>
+                         Bên cạnh đó, tính năng sạc ngược không dây 10 W giúp bạn chia sẻ năng lượng cho những thiết bị khác vô cùng tiện lợi.
+                     </p>
+                     <p style="font-size: 24px;"><b>Trải nghiệm đỉnh cao với màn hình 120 Hz</b></p>
+                     <p>
+                         Trang bị màn hình siêu tràn viền được uốn cong thác nước tuyệt đẹp với camera “đục lỗ”, sử dụng tấm nền AMOLED, độ phân giải 2K+, đảm bảo cho mọi chi tiết, đồ họa, hình ảnh đều hiển thị với chất lượng cao nhất.
+                     </p>
+                     <p>
+                          <img style="width: 80%; margin-left: 100px;" src="../HINH/phone/x13.jpg" alt="">
+                     </p>
+                     <p>
+                         Sử dụng vật liệu phát sáng E4 mới cung cấp độ sáng 1.500 nits, việc dùng ngoài trời nắng không còn là trở ngại với Mi 11.
+                         Mi 11 hỗ trợ tốc độ làm tươi 120 Hz và tốc độ lấy mẫu cảm ứng cực cao là 480 Hz mang đến sự mượt mà mỗi khi lướt cảm ứng và làm tăng trải nghiệm đặc biệt là khi bạn chơi game. 
+                     </p>
+                     <p>
+                         Màn hình của Mi 11 cũng được phủ lên mặt kính cường lực Corning Gorilla Glass Victus giúp bảo vệ màn hình khỏi các sự cố nứt vỡ trong khi sử dụng
+                     </p>
+                   <p>
+                          <img style="width: 80%; margin-left: 100px;" src="../HINH/phone/x15.jpg" alt="">
+                     </p>
+                     <p>
+                         Sở hữu vi xử lý Snapdragon 888, Mi 11 được dự đoán sẽ là một tân binh "đáng gờm" mở đầu cuộc đua hiệu năng đầy sôi động trong 2021. Tuy là một thiết bị cao cấp nhưng Mi 11 vẫn sẽ có mức giá cực kỳ hợp lý, cho phép tiếp cận đến nhiều đối tượng khách hàng hơn.
+                     </p>
+                  
+                     <p>
+                         <textarea style="margin-left: 99px;" name="Nhận xét" id="" cols="121" rows="8" placeholder="Nhận xét của bạn như thế nào về sản phẩm này??"> Nhận xét của bạn như thế nào về sản phẩm này??</textarea>
+                     </p>
+                     <p style="float:right; margin-right: 120px;">
+                         <button style="background-color: rgb(7, 207, 91); border-radius: 5px; height:30px; width: 100px;border: 0px;color: white;"> Nhận xét</button>
+                     </p>
+                </div>
+            </div>
+
+            </div>
+               
+             
+        </div>
+              
+              
+    </section>
+    <div id="back-to-top" class="back-to-top" data-toggle="tooltip" data-placement="left" title="Trở lên đầu trang">
+         <span style="margin-left: 500px;" class="glyphicon glyphicon-circle-arrow-up text-primary"> Trở lên đầu trang</span>
+          </div>    
+    
+    </div>
+    <div class="thongtin">
+        <div class="thongtinlienhe">
+            <div id="div1">
+                <h2>HỖ TRỢ - DỊCH VỤ</h2>
+                <hr style="border: 1px solid gray;" />
+            </div>
+            <div id="div2">
+                <p>Tổng đài hỗ trợ: 1900.000.000</p>
+                <p>Chăm sóc khách hàng và giải đáp thắc mắc: 8h-22h</p>
+                <p>Email:ahsmartphone.com</p>
+                <p>Gọi mua hàng: 099.999.999</p>
+            </div>
+           
+        </div>
+        <div class="chuoicuahang">      
+            <div id="div1">
+                <h2>HỆ THỐNG CỬA HÀNG</h2>
+                <hr style="border: 1px solid gray;" />
+            </div>
+            <div id="div2">
+                <p>999 Thái Hà, Q. Đống Đa Điện thoại: 0999.120.6688 - 0120.120.120</p>
+                <p>999 Trần Quang Khải, Q.1 Điện thoại: 0123.123.123 - 0520.520.520</p>
+                <p>602 Lê Hồng Phong, P.10, Q.10 Điện thoại: 0111.111.111 - 0333.333.333</p>
+                <p>Gọi mua hàng: 099.999.999</p>
+            </div>
+        </div>
+        
+        <div class="hinhthuc_thanhtoan">
+            <div id="div1">
+                <h2>THANH TOÁN NHANH</h2>
+                <hr style="border: 1px solid gray;" />
+            </div>
+            <div id="div2">
+                <img src="../HINH/visa_mastercard.gif" />
+
+            </div>
+        </div>
+  
+    </div>
+    <div class="footer">
+        <div id="div4">
+            <p>© 2021. AH SmartPhone hệ thống bán lẻ điện thoại di động.</p>
+        </div>
+        <div id="div5">
+            <i class="fab fa-facebook"><a href="#">Facebook</a></i>
+            <i class="fab fa-youtube"><a href="#">Youtube</a></i>
+
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1> Thông tin đăng ký</h1>
+                </div>
+                <div class="modal-body">
+                     <form  class="form-horizontal" role="form">
+                          <label for="txtName" class="control-label col-xs-3"> Họ và tên</label>
+                          <div class="col-xs-9">
+                             <input type="text" class="form-control" id="txtName" placeholder="Nguyễn Văn A">
+                             <span class="text-danger" id="tbName">*</span>
+                          </div>
+                          <label for="txtTendn" class="control-label col-xs-3"> Tên Đăng Nhập</label>
+                          <div class="col-xs-9">
+                             <input type="text" class="form-control" id="txtTendn" placeholder="">
+                             <span class="text-danger" id="tbTendn">*</span>
+                          </div>
+                          <label for="txtPass" class="control-label col-xs-3"> Password</label>
+                          <div class="col-xs-9">
+                             <input type="text" class="form-control" id="txtPass" placeholder="">
+                             <span class="text-danger" id="tbPass">*</span>
+                          </div>
+                           <label for="txtNPass" class="control-label col-xs-3"> Nhập lại Password</label>
+                          <div class="col-xs-9">
+                             <input type="text" class="form-control" id="txtNPass" placeholder="">
+                             <span class="text-danger" id="tbNPass">*</span>
+                          </div>
+                          <label for="txtDate" class="control-label col-xs-3"> Ngày tháng năm sinh</label>
+                          <div class="col-xs-9">
+                               <input type="date" class="form-control" id="txtDate">
+                               <span class="text-danger" id="tbDate">*</span>
+                         </div>
+                         <label for="txtAdd" class="control-label col-xs-3"> Địa Chỉ</label>
+                         <div class="col-xs-9">
+                              <input type="text" class="form-control" id="txtAdd">
+                              <span class="text-danger" id="tbAdd">*</span>
+                        </div>
+                        
+                          <label for="txtMail" class="control-label col-xs-3"> Email</label>
+                          <div class="col-xs-9">
+                                 <input type="text" class="form-control" id="txtMail" placeholder="">
+                                 <span class="text-danger" id="tbMail">*</span>
+                          </div>
+                          <label for="txtPhone" class="control-label col-xs-3"> Số điện thoại</label>
+                          <div class="col-xs-9">
+                                 <input type="text" class="form-control" id="txtPhone" placeholder="0777476235">
+                                 <span class="text-danger" id="tbPhone">*</span>
+                     </div>
+                     <label for="txtGioitinh" class="control-label col-xs-3"> Giới Tính</label>
+                        <div class="col-xs-9" >
+                            <select id="txtGioitinh">
+                                <option  value="Nam">Nam</option>
+                                <option  value="Nữ">Nữ</option>
+                            </select>
+                      </div>
+                        </div>
+                       
+                    <button class="btn btn-success btn-group-justified" type="button" id="btnSave">Đăng ký</button>
+                     </form>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" role="dialog" id="myModal1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1> Thông tin đăng nhập</h1>
+                        <h5 style="color: green; font-style: italic;">Đăng ký một tài khoản trước khi đăng nhập</h5>
+                    </div>
+                    <div class="modal-body">
+                         <form  class="form-horizontal" role="form">
+                              
+                              <label for="txtDN_Tendn" class="control-label col-xs-3"> Tên Đăng Nhập</label>
+                              <div class="col-xs-9">
+                                 <input type="text" class="form-control" id="txtDN_Tendn" placeholder="">
+                                 <span class="text-danger" id="tbDN_Tendn">*</span>
+                              </div>
+                              <label for="txtDN_Pass" class="control-label col-xs-3"> Password</label>
+                              <div class="col-xs-9">
+                                 <input type="text" class="form-control" id="txtDN_Pass" placeholder="">
+                                 <span class="text-danger" id="tbDN_Pass">*</span>
+                              </div>     
+                              <button class="btn btn-success btn-group-justified" type="button" id="btnDangnhap">Đăng nhập</button>             
+                            </div>
+                         
+                            </div>
+                           
+                      
+                         </form>
+                    </div>
+                </div>
+    <div class="modal " role="dialog" id="myModal2">
+        <div class="col-xs-12">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1> Thông tin khách hàng</h1>
+                    <h2 style="color: green;"> Đăng ký thành công</h2>
+                </div>
+                <div class="modal-body">
+                     <form  class="form-horizontal" role="form">
+                        <table class="table table-striped" role="table" id="table">
+                            <tr>
+                                <th>Họ và tên </th>
+                                <th>Tên đăng nhập</th>
+                                <th>Ngày tháng năm sinh</th>
+                                <th>Địa chỉ</th>
+                                <th>Email</th>
+                                <th>SĐT</th>
+                                <th>Giới Tính</th>
+                            </tr>
+                        </table>
+                        <button class="btn btn-success " type="button" id="btnXacNhan"  style="margin-left: 500px;margin-top: 30px;">Xác Nhận</button>
+                        </div>
+                       
+                    
+                     </form>
+                </div>
+            </div>
+        </div>
+ </body>
+ </html>
