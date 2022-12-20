@@ -137,13 +137,13 @@ nav{
 
 .list-slide{
     display:flex;
+    justify-content: center;
 
 }
 .anh{
    
     height:350px;
     width:18%;
-    margin-left:84px;
     margin-right:5px;
 }
 .anh #anh1{

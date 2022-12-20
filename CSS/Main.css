@@ -57,8 +57,6 @@ border-radius: 10px;
 nav{
             height: 55px;
             width: 100%;
-           # border:1px ;
-            #background-color: #FFD700;
            background-color: #FFC125;
             margin-bottom:1px;
            
@@ -70,7 +68,7 @@ nav{
             line-height: 50px;
             text-indent: 15px;
             position: relative;
-            #text-indent: 25px;
+            /* #text-indent: 25px; */
               
             
         }
@@ -125,7 +123,7 @@ nav{
     color:white;
     font-weight:bold;
     font-size:25px;
-    #transform:skewX(-30deg);
+    /* transform:skewX(-30deg); */
 }
 .sale p{
     margin-top:10px;
@@ -138,13 +136,13 @@ nav{
 
 .list-slide{
     display:flex;
-    margin-left: 80px;
+    /* margin-left: 60px; */
+    justify-content: center;
 }
 .anh{
    
     height:350px;
     width:18%;
-    margin-left:100px;
     margin-right:5px;
 }
 .anh #anh1{
@@ -185,7 +183,6 @@ nav{
 
 
 .product-list{
-    #background-color:#dedbdb;
     background-color:black;
     height:350px;
     clear:both;
@@ -193,8 +190,6 @@ nav{
 .product{
     background-color:white;
     height:100%;
-    #border:1px solid #eeeaea;
-   #border-left:none;
 }
 .product:hover{
     box-shadow:2px 2px 5px 2px gray;
@@ -299,13 +294,11 @@ nav{
 
 .box{
     clear:both;
-    #margin-bottom:30px;
 }
 .box-header{
     padding-top:15px;
     height:60px;
-    #margin-bottom:15px;
-    #background-color:yellow;
+
 }
 
 /*   
@@ -321,15 +314,12 @@ nav{
     height:400px;
    display:flex;
    width:100%;
-   #flex-flow:row wrap;
-    #background-color:green;
+
 }
 .iteam{
     float:left;
     width:20%;
     height:100%;
-    #border-bottom: 1px solid gray;
-    #border-right:1px solid gray;
     background-color:white;
 }
 .home-product-item__sale-off {
@@ -339,13 +329,11 @@ nav{
     width: 40px;
     height: 36px;
     background-color:red;
-    #background-color: rgba(255, 216, 64, 0.94);
     text-align: center;
     border-bottom-right-radius:50%;
      border-bottom-left-radius:50%;
 }
 .home-product-item__sale-off-percent {
-    #color: #ee4d2d;
     color:white;
     font-weight: 600;
     font-size: 1.2rem;
